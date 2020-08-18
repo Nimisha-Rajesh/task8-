@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="/css/all.min.css">
+</head>
+<body>
+
+        <div class="box1">
+            <div class="l">
+                <img src="https://printableletters.org/wp-content/uploads/blue-bold-letter-l.jpg" height="30"width="30">
+            </div>
+            <p1 class="lin"><strong><center>Linglee</center></strong></p1>
+            <p2 id="dash" onclick="Myfunction()"><i class="fas fa-columns"></i>&nbsp;<strong>Dashboard</strong></p2>
+            <p3 id="cls"onclick="myFunction()"><i class="far fa-square"></i>&nbsp;<b>Classes</b></p3>
+            <p4 class="res"><i class="far fa-file"></i>&nbsp;<b>Resources</b></p4>
+            <p5 class="lern"><i class="far fa-calendar"></i>&nbsp;<b>Learning plan</b></p5>
+            <p6 class="chat"><i class="far fa-comment-alt"></i></i>&nbsp;<b>Chat</b></p6>
+            <p7 class="set"><i class="far fa-edit"></i>&nbsp;<b>settings</b></p7>
+            <div class="bottombox">
+                <div class="letters">
+                    <img src="https://cdn.imgbin.com/13/3/10/imgbin-letter-cleaner-icon-envelope-cd1SUueTtk1ifcEYUqMGW5s6A.jpg" height="60"width="60" >
+                </div>
+                <p class="pro">Upgrade to <strong><strong class="black">PRO</strong></strong> for more resources.</p>
+                <div class="innerbox">
+                    <p class="white">Upgrade</p>
+
+                </div>
+
+            </div>
+
+    
+        </div>
+        <div id="box2">
+            <p id="board"><strong>Dashboard</strong></p>
+
+            <div id="inner1">
+                <h1 class="annaa"><strong>Welcome back Anna!</strong></h1>
+                <div class="imagee">
+                <img src="https://thumbs.dreamstime.com/b/woman-laptop-icon-flat-style-illustration-vector-web-design-163519381.jpg"height="150"width="150"></div>
+                <p class="you">You have learned <strong>80%</strong> of your goal in this week!</p>
+                <p class="keep">Keep it up and improve your results!</p>
+                
+
+            </div>
+            <div id="inner2">
+                <h1 class="late">Latest results</h1>
+
+            </div>
+            <div id="inner3">
+                <h1 class="time">Time spent on learning</h1>
+
+            </div>
+            <div id="inner4">
+                <div class="b1"><p class ="b1clr">B2</p></div>
+                <div class="frst">
+                <p id="eng">Business English</p>
+                <p class="gram"><strong>Grammar</strong></p>
+                </div>
+
+            </div>
+            <div id="inner5">
+                <div class="b2"><p class="b2clr">B2</p></div>
+                <div class="scnd">
+                <p class="common">Common English</p>
+                <p class="verb"><strong>Phrasal verbs</strong></p>
+                </div>
+
+            </div>
+            <div id="inner6">
+                <div class="b3"><p class="b3clr">C1</p></div>
+                <div class="thrd">
+                <p class="span">Business Spanish</p>
+                <p class="voca"><strong>Vocabulary</strong></p>
+                </div>               
+            </div>
+            <h1 id="class1">Classes</h1>
+            <div id="largerwhite">
+                <h1 id="classs">Classes</h1>
+            </div>
+        </div>
+        <div class="box3">
+            <h1 class="log">Logout</h1><div class="out"><i class="fas fa-sign-out-alt"></i></div>
+        
+           <center><img class="girl"src="https://www.joblinx.com.au/wp-content/uploads/2017/10/LinkedIn-Icon.png"height="100" width="120"></center>            <h2 class="anna">Anna Morrison</h2>
+            <h3 class="stu">Student</h3>
+            <div class="B2"><p class="in"><strong>B2</strong></p></div>
+            <div class="bb2">
+            <h4 class="engg">English</h4>
+            <p class="high">High intermediate</p>
+            </div>
+            <div class="C1"><p class="inn"><strong>C1</strong></p></div>
+            <div class="bb3">
+            <h5 class="spa">Spanish</h5>
+            <p class="ad">Advanced</p>
+            </div>
+            <p class="remin"><strong>Reminders</strong></p>
+            <div class="rem"><i class="far fa-bell"></i></div>
+            <div class="C2"><i id="innn" class="fas fa-exclamation-circle"></i></div>
+            <div class="bb4">
+            <p class="test"><strong>Eng-Vocabulary test</strong></p>
+            <p class="date">24 Sep 2019,Friday</p>
+            </div>
+            <div class="C3"><i id="onn" class="far fa-envelope"></i></div>
+            <div class="bb5">
+            <p class="hw"><strong>Eng-Send grammar homework</strong></p>
+            <p class="month">29 Sep 2019,Wednesday</p>
+            </div>
+            <div class="C4"><i id="onnn" class="far fa-envelope"></i></div>
+            <div class="bb6">
+            <p class="essay"><strong>Spanish-Send essay</strong></p>
+            <p class="year">05 Oct 2019,Monday</p>
+            </div>
+
+
+
+        </div>
+
+        <script>
+         function myFunction(){
+           document.getElementById("cls").style.color="black";
+           document.getElementById("dash").style.color="gray";
+           document.getElementById("inner1").style.display="none";
+           document.getElementById("inner2").style.display="none";
+           document.getElementById("inner3").style.display="none";
+           document.getElementById("inner4").style.display="none";
+           document.getElementById("inner5").style.display="none";
+           document.getElementById("inner6").style.display="none";
+           document.getElementById("board").style.display="none";
+           document.getElementById("class1").style.display="block";
+           document.getElementById("largerwhite").style.display="block";
+         }
+         function Myfunction(){
+             document.getElementById("dash").style.color="black";
+             document.getElementById("cls").style.color="gray";
+             document.getElementById("box2").style.display="block";
+             document.getElementById("inner1").style.display="block";
+             document.getElementById("inner2").style.display="block";
+             document.getElementById("inner3").style.display="block";
+             document.getElementById("inner4").style.display="block";
+             document.getElementById("inner5").style.display="block";
+             document.getElementById("inner6").style.display="block";
+             document.getElementById("board").style.display="block";
+             document.getElementById("class1").style.display="none";
+             document.getElementById("largerwhite").style.display="none";
+
+         } 
+        </script>
+    
+    
+</body>
+</html>
